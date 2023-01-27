@@ -34,7 +34,7 @@ img {
     All images have a white 10px dashed border */
 
     width: 250px;
-    border: 10px #FFFFFF;
+    border: 10px dashed #FFFFFF;
     margin: auto;
     display: block;
 }
