@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Verdana;
+    background: #000000;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    padding: 15px;
+}
+
+h2 {
+    /* text-size: 30px; */
+    font-size: 30px; 
+
+}
+
+p {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px; /* may need to be none*/
+    padding-right: 0px;
+}
+
+img {
+    /* All images are 250px wide  (do not set a height)
+    All images are centered 
+    All images have a white 10px dashed border */
+
+    width: 250px;
+    border: 10px #FFFFFF;
+    margin: auto;
+    display: block;
+}
+
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #FFFFFF;
+}
+
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+.red {
+    background-color: #ff0000;
+    text-align: right; 
+    margin-left: 50px;
+    border-bottom: 2px solid white;
+    border-left: 5px solid white;
+    border-top: none;
+    border-right: none;
+}
+
+.blue {
+    background-color: #0000ff;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid white;
+    border-top: 2px solid white;
+    border-bottom: none;
+    border-left: none;
+}
+
+/*Can use cascading feature of CSS*/
+.blue h2 {
+    color: #c4c4c4;
+}
+
+.blue p {
+    color: #c4c4c4;
+}
+
+/**/
+
+.yellow {
+    background-color: #ffff00;
+    color:#000000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid white;
+    border-left: 5px solid white;
+    border-right: none;
+    border-top: none;
+}
+
+.yellow p {
+    color: #707070;
+}
+
+.green {
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid white;
+    border-top: 2px solid white;
+    border-left: none;
+    border-bottom: none;
+}
+
+.green h2{
+    color:#000000;
+}
+
+footer {
+    background: #000000;
+    background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff  70%, #000000 100%);
+    border: 5px solid #FFFFFF;
+}
+
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+}
